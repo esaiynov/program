@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(235, 193, 130) 70%, red 30%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+a {
+    text-transform: uppercase;
+    margin: 0 10px;
+    text-decoration-line: none;
+    color: black;
+}
+
+main {
+    height: 80vh;
+    position: relative;
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+
+}
+
+.info {
+    width: 35vw;
+}
+
+.read,
+.buy,
+.contact {
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.read {
+    text-transform: lowercase;
+}
+
+.buy {
+    background-color: black;
+    color: white;
+
+    padding: 10px 15px;
+}
+
+.contact {
+    border: 1px solid black;
+    padding: 10px 15px;
+    margin-left: 20px;
+}
+
+.button {
+    margin-top: 30px;
+
+}
+
+.cola {
+    position: absolute;
+    right: 20%;
+    top: 20%;
+}

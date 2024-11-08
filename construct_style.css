@@ -1,0 +1,44 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    margin-right: 15px;
+    border-radius: 360px;
+    padding: 15px;
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 480px) {
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .item {
+        flex-direction: column;
+    }
+
+}

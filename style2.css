@@ -1,0 +1,22 @@
+ img {
+     height: 100px;
+ }
+
+ .image {
+     height: 700px;
+ }
+
+ .container {
+     display: flex;
+     align-items: center;
+ }
+
+ .first {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .second {
+     display: flex;
+     margin-top: 50px;
+ }

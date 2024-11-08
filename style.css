@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+a {
+    margin-left: 30px;
+    color: grey;
+    text-decoration-line: none;
+}
+
+em {
+    text-transform: uppercase;
+}
+
+main {
+    margin: 0 50px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img {
+    width: 40vw;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 0;
+
+}
+
+p {
+    width: 35vw;
+    margin-bottom: 40px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    width: 50px;
+}
+
+.started {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
